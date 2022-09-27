@@ -1,0 +1,84 @@
+/* Utility */
+:root{
+    --green:rgb(26, 188, 156);
+    --drak:rgb(44, 62, 80);
+    --blue:rgb(58, 84, 109);
+}
+.debug{
+    border: 1px solid black ;
+    height: 100px;
+}
+.dflex{
+    display: flex;
+}
+/* header */
+header{
+    background-color: var(--drak);
+}
+.titolo{
+    font-size: 25px;
+    font-weight: 700;
+}
+.font-weight{
+    font-weight: 700;
+}
+/* -------- hero ------- */
+.hero{
+    width: 100%;
+    background-color: var(--green);
+}
+.cont-avatr{
+    width: 100%;
+    max-width: 1200px;
+   
+}
+.avatar{
+    width: 40%;
+    max-width: 50%;
+}
+.linea{
+    width: 15%;
+    height: 5px;
+    border: 1px solid black;
+    border-radius: 5px;   
+}
+.container-linea{
+    padding-top: 30px;
+}
+.material-symbols-outlined{
+    font-size: 40px;
+}
+/* -------- MAIN ------ */
+main{
+    padding-top: 80px;
+}
+img{
+   width: 100%;
+}
+.card-box{
+    padding: 10px;
+}
+.pading{
+    margin-top: 50px;
+}
+.mb_color{
+    background-color: var(--green);
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+.btn1{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+/* --------MEDIAQ------------- */
+@media screen and (min-width:768) {
+    .card-box{
+        padding: 10px;
+        margin-left: 50px;
+    }
+}
