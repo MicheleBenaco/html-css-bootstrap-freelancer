@@ -15,6 +15,9 @@
 header{
     background-color: var(--drak);
 }
+.bg-mb-green{
+    background-color: var(--green);
+}
 .titolo{
     font-size: 25px;
     font-weight: 700;
@@ -30,7 +33,9 @@ header{
 .cont-avatr{
     width: 100%;
     max-width: 1200px;
-   
+}
+h3{
+    font-size: 20px;
 }
 .avatar{
     width: 40%;
